@@ -41,125 +41,49 @@
 
     
 
-<div class="slideshow-container">
-  <div class="mySlides1">
+
     <img src="photogMedia/light4.jpg" style="width:100%">
-  </div>
+  
 
-  <div class="mySlides1">
     <img src="photogMedia/light3.jpg" style="width:100%">
-  </div>
 
-  <div class="mySlides1">
         <img src="photogMedia/light1.jpg" style="width:100%">
-      </div>
 
-  <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
-</div>
 
 <h1 style="font-size: 200%; margin-left:0; margin-right:0; float:left; margin-right: 5%"> Movement <hr style= "width:100%; margin-left:0;"></h1>
-<div class="slideshow-container">
-  <div class="mySlides2">
     <img src="photogMedia/movement1.jpg" style="width:100%">
-  </div>
 
-  <div class="mySlides2">
     <img src="photogMedia/movement2.jpg" style="width:100%">
-  </div>
 
-  <div class="mySlides2">
     <img src="photogMedia/movement3.jpg" style="width:100%">
-  </div>
 
-  <div class="mySlides2">
         <img src="photogMedia/movement4.jpg" style="width:100%">
-      </div>
 
-  <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
-</div>
 
 <h1 style="font-size: 200%; margin-left:0; margin-right:0; float:left; margin-right: 5%"> People <hr style= "width:100%; margin-left:0;"></h1>
-<div class="slideshow-container">
-  <div class="mySlides3">
     <img src="photogMedia/people1.jpg" style="width:100%">
-  </div>
 
-  <div class="mySlides3">
     <img src="photogMedia/people2.jpg" style="width:100%">
-  </div>
 
-  <div class="mySlides3">
     <img src="photogMedia/people3.jpg" style="width:100%">
-  </div>
 
-  <div class="mySlides3">
         <img src="photogMedia/people4.jpg" style="width:100%">
-      </div>
 
-          <div class="mySlides3">
                 <img src="photogMedia/people6.jpg" style="width:100%">
-              </div>
 
-  <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
-</div>
 
 <h1 style="font-size: 200%; margin-left:0; margin-right:0; float:left; margin-right: 5%"> Things <hr style= "width:100%; margin-left:0;"></h1>
-<div class="slideshow-container">
-  <div class="mySlides4">
     <img src="photogMedia/things1.JPG" style="width:100%">
-  </div>
 
-  <div class="mySlides4">
     <img src="photogMedia/things2.jpg" style="width:100%">
-  </div>
 
-  <div class="mySlides4">
     <img src="photogMedia/things3.jpg" style="width:100%">
-  </div>
 
-  <div class="mySlides4">
         <img src="photogMedia/things4.jpg" style="width:100%">
-      </div>
 
-      <div class="mySlides4">
             <img src="photogMedia/things5.jpg" style="width:100%">
-          </div>
 
-          <div class="mySlides4">
                 <img src="photogMedia/things6.jpg" style="width:100%">
-              </div>
-
-  <a class="prev" onclick="plusSlides(-1, 3)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1, 3)">&#10095;</a>
-</div>
-
-<script>
-var slideIndex = [1,1, 1,1];
-var slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4"]
-showSlides(1, 0);
-showSlides(1, 1);
-showSlides(1, 2);
-showSlides(1, 3);
-
-function plusSlides(n, no) {
-  showSlides(slideIndex[no] += n, no);
-}
-
-function showSlides(n, no) {
-  var i;
-  var x = document.getElementsByClassName(slideId[no]);
-  if (n > x.length) {slideIndex[no] = 1}    
-  if (n < 1) {slideIndex[no] = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
-  }
-  x[slideIndex[no]-1].style.display = "block";  
-}
-</script>
-
 
         </div>
       
