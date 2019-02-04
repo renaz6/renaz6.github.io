@@ -8,11 +8,14 @@ html {
     height: 100%;
     margin: 0;
     overflow-y: scroll;
+    overflow-x: ;
   }
 
   * {
     box-sizing: border-box;
   }
+
+
   
   #background {
     background-color: #F7D3D7;
@@ -22,26 +25,30 @@ html {
     overflow-x: hidden;
     overflow-y: hidden;
     height: 100%;
+    min-width: 480px;
+    max-width: 1920px;
+    width: 100%;
+
   }
   
   h1 {
     color: gray;
     font-family: 'Quicksand', sans-serif;
-    font-size: 400%;
+    font-size: 4rem;
     font-weight: 100;
-    margin-right: 20%;
     margin-bottom: 0;
     float: right;
+    margin-right: 15%;
   }
 
   h2 {
     color: white;
     font-family: 'Quicksand', sans-serif;
     font-weight: 100;
-    margin-right: 18%;
+    margin-right: 15%;
     margin-top: 1%;
     float: right;
-    font-size: 150%;
+    font-size: 2rem%;
     margin-bottom: 0;
 
   }
@@ -50,7 +57,6 @@ html {
     color: grey;
     font-family: 'Quicksand', sans-serif;
     font-weight: 100;
-    margin-left: 15%;
     margin-top: 2%;
     margin-bottom: 1%;
     font-size: 400%;
@@ -81,8 +87,6 @@ html {
     border-color: white;
     float: center;
     margin-top:0;
-    margin-left: 15%;
-    margin-right: 15%;
     border-width: 50%;
     
   }
@@ -93,8 +97,10 @@ html {
     border-style: solid; 
   }
 
-  .img {
+
+  .cont {
     margin-left: 15%;
+    margin-right:15%;
   }
 
   
@@ -179,6 +185,10 @@ html {
         float: left;
         width: 33.33%;
         padding: 5px;
+        max-width: 30%;
+        min-width: 350px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
       }
       
       /* Clearfix (clear floats) */
@@ -195,11 +205,7 @@ html {
         margin-right: 15%;
       }
 
-      .gallery {
-        margin-left: 15%;
-        margin-right:15%;
-        width: 71%;
-      }
+     
       
       .right-description {
         float: right;
@@ -215,15 +221,14 @@ html {
         margin-top: 0;
       }
 
-      @media only screen and (max-width:620px) {
-        /* For mobile phones: */
-        .gallery, .right-description, .left-description,  {
-          width:100%;
-        }
-
-        .container {
-          width: 400%
-        }
-      }
+      .u-max-full-width {
+        max-width: 30%;
+        min-width: 350px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        border-width: 15px; 
+        border-color: white; 
+        border-style: solid; 
+    }
 
 
