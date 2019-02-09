@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+  }
+
+#nav 
+{
+    position: fixed;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: white;
+    width: 100%;
+    top: 0; padding: 0; margin: 0;
+}
+  
+.links 
+{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    float: right;
+    display: inline;
+    color: black;
+    padding: 1% 3%;
+    font-size: 100%;
+}
+  
+.links:hover 
+{
+    background-color: pink;
+    color: white;
+}
+
+.left-column 
+{
+    position: fixed;
+    width: 40%;
+    height:770px;
+    float: left;
+    border-right: 5%;
+    border-right: thin solid black;
+    padding: 20px;
+
+}
+
+@media screen and (min-width: 0px) and (max-width: 300px) {
+    
+    .left-column
+    {
+        visibility: hidden;
+        display:none;
+    }
+
+}
+
+.gallery
+{
+    width:59%;
+    float: right;
+    margin-top: 3%;
+    height: 2000px;
+}
+
+.tile
+{
+    position: relative;
+    margin-top: 0%;
+    width: 98%;
+    background-color: pink;
+    height: 20%;
+    border: thin solid black;
+
+
+}
+
+.overlay {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: yellow;
+    width:100%;
+    height:100%;
+   
+  }
+  
+  .tile:hover .overlay {
+    opacity: .5;
+  }
+
+h1
+{
+    margin-bottom: 0%;
+   width: 98%;
+    font-size: 400%;
+    color: black;
+    font-family: 'Playfair Display', serif;
+
+}
+
+h2
+{
+    margin-bottom: 0%;
+   width: 98%;
+    font-size: 200%;
+    color: black;
+    font-family: 'Playfair Display', serif;
+    border: thin solid black;
+
+}
+
+
+hr 
+{
+    width: 1%;
+    size: 100%;
+    float: right;
+}
+
+
+ 
+      
