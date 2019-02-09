@@ -42,19 +42,62 @@
 
 }
 
-@media screen and (min-width: 0px) and (max-width: 300px) {
+.phone
+{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+@media all and (max-width: 700px) {
     
     .left-column
     {
         visibility: hidden;
-        display:none;
+        display: none;
+    }
+
+    .gallery 
+    {
+        width: 100%;
+        height: 400px;
+    }
+
+    .tiles
+    {
+        width: 100%;
+    }
+
+    .phone
+    {
+        display: block;
+
+    }
+
+}
+
+@media all and (min-width: 701px) 
+{
+    .phone
+    {
+        display: none;
+
+    }
+
+    .gallery
+    {
+        width: 59%;
+
+    }
+
+    .tile
+    {
+
     }
 
 }
 
 .gallery
 {
-    width:59%;
     float: right;
     margin-top: 3%;
     height: 2000px;
@@ -65,7 +108,6 @@
     position: relative;
     margin-top: 0%;
     width: 98%;
-    background-color: pink;
     height: 20%;
     border: thin solid black;
 
