@@ -169,7 +169,7 @@ h2
     color: #ff8080;
     font-size: 170%;
     width: 98%;
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'Oswald Medium', sans-serif;
 }
 
 h3
@@ -177,7 +177,7 @@ h3
     color: white    ;
     font-size: 170%;
     width: 98%;
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'Oswald Medium', sans-serif;
 }
 
 h4
@@ -185,7 +185,7 @@ h4
     margin-top: 2%;
     color: white;
     font-size: 300%;
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'Oswald Medium', sans-serif;
     margin-left: 2%;
 
 }
@@ -194,7 +194,7 @@ p
 {
     width: 90%;
     margin-left: 3%;
-    font-family: 'Source Sans Pro', serif;
+    font-family: 'Oswald Medium', sans-serif;
     font-size: 170%;
     color: white;
     margin-top: 0%;
